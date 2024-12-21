@@ -4,7 +4,7 @@ const cors=require('cors')
 const app=express()
 require('dotenv').config()
 const port=process.env.PORT ||8080
-const mainRoute=require('./ROUTES/mainRouter')
+const mainRoute=require('./mainRouter')
 //middlewares
 app.use(bodyparser.json())
 app.use(cors())
