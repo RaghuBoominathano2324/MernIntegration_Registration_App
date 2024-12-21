@@ -1,12 +1,12 @@
 const router=require('express').Router()
-const registerValidation=require('../MIDDLEWARE/registerValidation')
-const registerUser = require('../Controllers/registerController'); // Use the renamed function
-const deleteController=require('../CONTROLLERS/deleteController')
+const registerValidation=require('./registerValidation')
+const registerUser = require('./registerController'); // Use the renamed function
+const deleteController=require('./deleteController')
 
 
 // const  registerController=require('../CONTROLLERS/registerController')
 
-const  renderController=require('../CONTROLLERS/renderController')
+const  renderController=require('./renderController')
 
 
 
