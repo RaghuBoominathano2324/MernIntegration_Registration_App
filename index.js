@@ -8,7 +8,7 @@ const mainRoute=require('./mainRouter')
 //middlewares
 app.use(bodyparser.json())
 app.use(cors())
-require('./MODELS/db')
+require('./db')
 
 
 //router
