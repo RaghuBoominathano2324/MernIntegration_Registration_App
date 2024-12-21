@@ -1,4 +1,4 @@
-const registerModel = require('../MODELS/RegistrationSchema');
+const registerModel = require('./RegistrationSchema');
 
 const deleteController = async (req, res) => {
     try {
