@@ -1,4 +1,4 @@
-const registerModel = require('../MODELS/RegistrationSchema'); // Ensure correct import
+const registerModel = require('./RegistrationSchema'); // Ensure correct import
 
 const registerUser = async (req, res) => {
     try {
